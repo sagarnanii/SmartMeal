@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+}
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  padding: 20px;
+  padding-left: 15%;
+  height:auto;
+  min-height:95vh;
+  background-image: url("background.jpg");
+  
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.rotate {
+  transform: rotate(-90deg);
+}
+
+.recipe {
+  width: 100%;
+  height: 20%;
+  object-fit: cover
+}
+
+.fioLogo{
+  border-radius: 50px;
+}
+
+
+
+/* login form css */
+.login {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.form {
+  max-width: 350px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f7bf50;
+ 
+}
+
+.form .form__custom-button {
+  margin-top: 10px;
+}
+
+.fioLogoLogin{
+  margin-bottom: 10px;
+  width:150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paymentHolder{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 23px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  background: white;
+  justify-content: center;
+  border: 2px solid rgb(231, 179, 7);
+  border-radius: 20px;
+  width:fit-content;
+  margin: auto;
+  padding: 20px;
+}
+
+.paymentColumn{
+  width: 180px;
+  border-bottom: black 2px solid;
+}
+
+.individualPaymentEntries{
+  /* border-top: black 2px solid; */
+  border-bottom: black 2px solid;  
+  text-align: right;
+  padding-right: 15px;
+
+}
+
+.table{
+  table-layout: fixed;
+  width: 200px;
+  margin: auto;
+}
+
+.paymentTotal{
+  margin-top:15px;
+}
+
+
+.creditCardInfo{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardField{
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+.creditCardNumber{
+  display: flex;
+  flex-direction: column;
+}
+
+.expiry{
+ display: flex;
+ flex-direction: column;
+}
+
+.security{
+  display: flex;
+  flex-direction: column;
+ }
+
+ .expiryAndSecurityCode{
+   margin-top: 10px;
+   display: flex;
+ }
