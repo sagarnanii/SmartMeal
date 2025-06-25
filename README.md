@@ -11,7 +11,7 @@ Smart Meal PLanner is a meal planning application that helps users plan out thei
 
 ### Database Setup
 
-Fort it over uses a PostgreSQL database. Users are free to set up the database how they choose as long as they make the appropriate adjustments to their .env file (See .env.example). We used the following comands:
+This uses a PostgreSQL database. Users are free to set up the database how they choose as long as they make the appropriate adjustments to their .env file (See .env.example). We used the following comands:
 
 1. `$ psql`
 2. `CREATE DATABASE final OWNER labber`
