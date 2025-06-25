@@ -1,16 +1,13 @@
-# Fork it Over
+# SmartMeal
 
-Fork it over is a meal planning application that helps users plan out their weekly meal schedule and grocery shopping. The app is built with a React front end and Express Node.js back end. The application is made up of 5 core features:
+Smart Meal PLanner is a meal planning application that helps users plan out their weekly meal schedule and grocery shopping. The app is built with a React front end and Express Node.js back end. The application is made up of 5 core features:
 
   - Weekly Plan: A weekly calendar to keep track of meals you plan to eat on a given week
   - Search: A search function that allows users to look for recipes via the Spoonacular API
   - Pantry List: List to keep track of ingredients you have on hand. Ingredients correspond to those available on Spoonacular. 
   - Grocery List: Auto generated list based on your weekly meal plan and your pantry items. 
   - Favourites: A page to view your favourited recipes
-
-## Getting Started
-
-For anyone who wants to download and tinker with Fork it over, please fork and clone this respository to your local computer. 
+ 
 
 ### Database Setup
 
